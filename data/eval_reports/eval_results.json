@@ -1,0 +1,30 @@
+[
+    {
+        "test_id": 1,
+        "category": "In-Context Query",
+        "query": "What are the key policy goals regarding energy reliability and sustainability?",
+        "answer": "According to the provided context, the International Energy Agency (IEA) advocates policies that will enhance the reliability, affordability, and sustainability of energy.",
+        "status": "\u2705 PASSED (Grounded response provided)"
+    },
+    {
+        "test_id": 2,
+        "category": "In-Context Query",
+        "query": "Which countries are gaining increasing influence on energy market trends?",
+        "answer": "According to the provided context, the countries gaining increasing influence on energy market trends are:\n\n- India\n- Indonesia\n- Brazil",
+        "status": "\u2705 PASSED (Grounded response provided)"
+    },
+    {
+        "test_id": 3,
+        "category": "Out-of-Context Trick Question (Hallucination Test)",
+        "query": "What was Uniper's net profit margin in Q3 2024?",
+        "answer": "Information not available in policy documents.",
+        "status": "\u2705 PASSED (Correctly rejected out-of-context query)"
+    },
+    {
+        "test_id": 4,
+        "category": "Out-of-Context Trick Question (Hallucination Test)",
+        "query": "What is the recommended recipe for baking sourdough bread?",
+        "answer": "Information not available in policy documents.",
+        "status": "\u2705 PASSED (Correctly rejected out-of-context query)"
+    }
+]
