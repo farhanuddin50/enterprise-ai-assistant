@@ -1,8 +1,12 @@
+---
+
 # ⚡ Enterprise AI Business Process Assistant
 
-An enterprise-grade Retrieval-Augmented Generation (RAG) assistant designed to automate document QA, business workflows, and information extraction over internal policy files while strictly preventing AI hallucinations.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://enterprise-ai-assistant.streamlit.app)
 
----
+> 🌐 **Live Web Application:** [https://enterprise-ai-assistant.streamlit.app](https://enterprise-ai-assistant.streamlit.app)
+
+An enterprise-grade Retrieval-Augmented Generation (RAG) assistant designed to automate document QA, business workflows, and information extraction over internal policy files while strictly preventing AI hallucinations.
 
 ## 🛠️ Architecture & Tech Stack
 
